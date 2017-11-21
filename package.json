@@ -1,10 +1,12 @@
 {
   "name": "flow",
   "version": "1.0.0",
-  "description": "Productivity app based on the Flow Model",
+  "description": "Productivity app to track emotional state while undertaking a task or activity based on the Flow Model.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "start": "node ./server/server.js"
   },
   "repository": {
     "type": "git",
