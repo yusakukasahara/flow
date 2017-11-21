@@ -1,0 +1,1 @@
+module.exports = 'admin:pass@ds115396.mlab.com:15396/flow'
