@@ -48,7 +48,8 @@ exports.createNewUser = (req, res) => {
 };
 
 const checkUser = (req, res) => {
-  isLoggedIn(req) ? createSession(req, res, req.session.user) : res.sendStatus(404);
+  isLoggedIn(req) ? createSession(req, res, req.session.user) 
+    : res.sendStatus(404);
 };
 
 exports.loggedUser = (req, res) => {
