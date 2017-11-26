@@ -61,14 +61,14 @@ app.use(session({
 }));
 
 //serve up static files
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('../client/public'));
 
 //register the route
 routes(app);
 
 //serve index.html
 app.get('*', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html')
+  res.sendFile('../client/public/index.html')
 });
 
 //set and listen to env port or 3000

@@ -1,1 +1,1 @@
-module.exports = '<username>:<password>@ds115396.mlab.com:15396/flow'
+module.exports = 'admin:pass@ds115396.mlab.com:15396/flow'
